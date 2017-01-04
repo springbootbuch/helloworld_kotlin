@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
 
 @SpringBootApplication
-open class Application {
+class Application {
     @RestController
     @RequestMapping(value = "/hello")
     class HelloWorldController {
