@@ -13,7 +13,7 @@ class Application {
     @RequestMapping(value = "/hello")
     class HelloWorldController {
         @GetMapping
-        fun helloWorld(@RequestParam name: String) = "Hello, " + name + "\n"
+        fun helloWorld(@RequestParam name: String) = "Hello, $name\n"
     }
 }
 
