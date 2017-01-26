@@ -20,7 +20,7 @@ class ApplicationTest {
     @Test fun helloWorldShouldWork() {
         mockMvc
             .perform(get("/hello").param("name", "World"))
-            .andExpect(status().isOk())
+            .andExpect(status().isOk)
             .andExpect(content().string("Hello, World\n"))
     }
 }
