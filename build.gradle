@@ -1,10 +1,10 @@
 buildscript {
     ext {
-        kotlinVersion = '1.0.6'
+        ktVersion = '1.0.6'
     }
     dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
-        classpath "org.jetbrains.kotlin:kotlin-allopen:$kotlinVersion"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$ktVersion"
+        classpath "org.jetbrains.kotlin:kotlin-allopen:$ktVersion"
     }
 }
 
@@ -28,7 +28,7 @@ repositories {
 }
 
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$ktVersion"
     compile "org.springframework.boot:spring-boot-starter-web"
     testCompile "org.springframework.boot:spring-boot-starter-test"
 }
