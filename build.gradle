@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        ktVersion = '1.1.0'
+        ktVersion = '1.1.2'
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$ktVersion"
