@@ -39,7 +39,7 @@ repositories {
 }
 
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$ktVersion"
+    compile "org.jetbrains.kotlin:kotlin-stdlib"
     compile "org.springframework.boot:spring-boot-starter-web"
     compile "org.jetbrains.kotlin:kotlin-reflect"
     testCompile "org.springframework.boot:spring-boot-starter-test"
